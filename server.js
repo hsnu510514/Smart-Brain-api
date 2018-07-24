@@ -15,7 +15,7 @@ const db = knex({
     host: 'sbpgsql.postgres.database.azure.com',
     user: 'Sean@sbpgsql',
     password: 'Password2018',
-    database: 'postgre',
+    database: 'postgres',
     port: 5432,
     ssl: true
   }
