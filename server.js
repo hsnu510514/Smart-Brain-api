@@ -12,7 +12,7 @@ const image = require('./controllers/image');
 const db = knex({
   client: 'pg',
   connection: {
-    host: 'sbpgsql.postgres.database.azure.com',
+    connectionstring: 'sbpgsql.postgres.database.azure.com',
     user: 'Sean@sbpgsql',
     password: 'Password2018',
     database: 'postgres',
